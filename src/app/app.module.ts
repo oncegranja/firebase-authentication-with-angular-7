@@ -16,13 +16,15 @@ import { UserService } from './core/user.service';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserComponent,
-    RegisterComponent
+    RegisterComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
